@@ -10,8 +10,8 @@ const listArray = [
 const listExpensive = document.querySelector('.list');
 let i = 0;
 
-while (i < listArray.length - 1) {
-    i++;
+while (i < listArray.length) {
     console.log(listArray[i]);
     listExpensive.innerHTML += `<li>${listArray[i]}</li>`;
+    i++;
 }
